@@ -19,6 +19,12 @@
 		508AEBF917BB1FAE00B3E27C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508AEBF717BB1FAE00B3E27C /* MainStoryboard.storyboard */; };
 		508AEBFC17BB1FAE00B3E27C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508AEBFB17BB1FAE00B3E27C /* MasterViewController.m */; };
 		508AEBFF17BB1FAE00B3E27C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508AEBFE17BB1FAE00B3E27C /* DetailViewController.m */; };
+		508AEC0817BB272000B3E27C /* Tutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 508AEC0717BB272000B3E27C /* Tutorial.m */; };
+		508AEC0B17BB27ED00B3E27C /* Contributor.m in Sources */ = {isa = PBXBuildFile; fileRef = 508AEC0A17BB27ED00B3E27C /* Contributor.m */; };
+		508AEC1317BB29EA00B3E27C /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 508AEC0E17BB29EA00B3E27C /* TFHpple.m */; };
+		508AEC1417BB29EA00B3E27C /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 508AEC1017BB29EA00B3E27C /* TFHppleElement.m */; };
+		508AEC1517BB29EA00B3E27C /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 508AEC1217BB29EA00B3E27C /* XPathQuery.m */; };
+		508AEC1717BB373700B3E27C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 508AEC1617BB373700B3E27C /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +46,17 @@
 		508AEBFB17BB1FAE00B3E27C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		508AEBFD17BB1FAE00B3E27C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		508AEBFE17BB1FAE00B3E27C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		508AEC0617BB272000B3E27C /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial.h; sourceTree = "<group>"; };
+		508AEC0717BB272000B3E27C /* Tutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutorial.m; sourceTree = "<group>"; };
+		508AEC0917BB27ED00B3E27C /* Contributor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contributor.h; sourceTree = "<group>"; };
+		508AEC0A17BB27ED00B3E27C /* Contributor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contributor.m; sourceTree = "<group>"; };
+		508AEC0D17BB29EA00B3E27C /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		508AEC0E17BB29EA00B3E27C /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		508AEC0F17BB29EA00B3E27C /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		508AEC1017BB29EA00B3E27C /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		508AEC1117BB29EA00B3E27C /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		508AEC1217BB29EA00B3E27C /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		508AEC1617BB373700B3E27C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508AEC1717BB373700B3E27C /* libxml2.dylib in Frameworks */,
 				508AEBE017BB1FAE00B3E27C /* UIKit.framework in Frameworks */,
 				508AEBE217BB1FAE00B3E27C /* Foundation.framework in Frameworks */,
 				508AEBE417BB1FAE00B3E27C /* CoreGraphics.framework in Frameworks */,
@@ -59,6 +77,7 @@
 		508AEBD317BB1FAE00B3E27C = {
 			isa = PBXGroup;
 			children = (
+				508AEC1617BB373700B3E27C /* libxml2.dylib */,
 				508AEBE517BB1FAE00B3E27C /* HTMLParsing */,
 				508AEBDE17BB1FAE00B3E27C /* Frameworks */,
 				508AEBDD17BB1FAE00B3E27C /* Products */,
@@ -86,6 +105,7 @@
 		508AEBE517BB1FAE00B3E27C /* HTMLParsing */ = {
 			isa = PBXGroup;
 			children = (
+				508AEC0517BB23F400B3E27C /* Model */,
 				508AEBEE17BB1FAE00B3E27C /* AppDelegate.h */,
 				508AEBEF17BB1FAE00B3E27C /* AppDelegate.m */,
 				508AEBF717BB1FAE00B3E27C /* MainStoryboard.storyboard */,
@@ -93,6 +113,7 @@
 				508AEBFB17BB1FAE00B3E27C /* MasterViewController.m */,
 				508AEBFD17BB1FAE00B3E27C /* DetailViewController.h */,
 				508AEBFE17BB1FAE00B3E27C /* DetailViewController.m */,
+				508AEC0C17BB29CA00B3E27C /* hpple */,
 				508AEBE617BB1FAE00B3E27C /* Supporting Files */,
 			);
 			path = HTMLParsing;
@@ -110,6 +131,30 @@
 				508AEBF517BB1FAE00B3E27C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		508AEC0517BB23F400B3E27C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				508AEC0617BB272000B3E27C /* Tutorial.h */,
+				508AEC0717BB272000B3E27C /* Tutorial.m */,
+				508AEC0917BB27ED00B3E27C /* Contributor.h */,
+				508AEC0A17BB27ED00B3E27C /* Contributor.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		508AEC0C17BB29CA00B3E27C /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				508AEC0D17BB29EA00B3E27C /* TFHpple.h */,
+				508AEC0E17BB29EA00B3E27C /* TFHpple.m */,
+				508AEC0F17BB29EA00B3E27C /* TFHppleElement.h */,
+				508AEC1017BB29EA00B3E27C /* TFHppleElement.m */,
+				508AEC1117BB29EA00B3E27C /* XPathQuery.h */,
+				508AEC1217BB29EA00B3E27C /* XPathQuery.m */,
+			);
+			name = hpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +227,11 @@
 				508AEBF017BB1FAE00B3E27C /* AppDelegate.m in Sources */,
 				508AEBFC17BB1FAE00B3E27C /* MasterViewController.m in Sources */,
 				508AEBFF17BB1FAE00B3E27C /* DetailViewController.m in Sources */,
+				508AEC0817BB272000B3E27C /* Tutorial.m in Sources */,
+				508AEC0B17BB27ED00B3E27C /* Contributor.m in Sources */,
+				508AEC1317BB29EA00B3E27C /* TFHpple.m in Sources */,
+				508AEC1417BB29EA00B3E27C /* TFHppleElement.m in Sources */,
+				508AEC1517BB29EA00B3E27C /* XPathQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +318,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTMLParsing/HTMLParsing-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "HTMLParsing/HTMLParsing-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -279,6 +330,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTMLParsing/HTMLParsing-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "HTMLParsing/HTMLParsing-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
